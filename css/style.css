@@ -41,6 +41,7 @@
 .nav-list li a{
  text-decoration: none;
  color: white;
+ font-size: 18px;
  font-family: 'Ubuntu', sans-serif;
 }
 .nav-list li a:hover{
@@ -160,26 +161,49 @@ margin-top: 19px;
 
 .contact{
     background-color: gray;
-    height: 300vh;
+    height: 200vh;
 }
 
 .text-center{
-text-align: center;
-padding:30px;
-font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-top: 47px;
+    font-family: Ubuntu, sans-serif;
 
 }
 
 .form{
  max-width: 500px;
- margin: 42px auto;
+ margin: 25px auto;
 }
 
-.form input{
-    margin: 30px 0;
-    padding: 5px 3px;
+.form-input{
+    margin: 22px 0;
+    padding: 10px 16px;
     width: 100%;
     font-size: 19px;
     border: 2px solid grey;
     border-radius: 6px;
+}
+
+.btn-dark{
+    padding: 8px 20px;
+    justify-content: center;
+    border-radius: 8px;
+    display: block;  
+    text-align: center;
+    margin: auto;
+    background-color: blue;
+    color: white;
+    cursor:pointer;
+
+}
+
+.btn-dark:hover{
+  background-color: blueviolet;
+}
+
+.text-footer{
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+
 }
